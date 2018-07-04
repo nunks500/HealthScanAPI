@@ -5,12 +5,13 @@
   "main": "server/server.js",
   "dependencies": {
     "express": "^4.16.3",
+    "pg": "^7.4.3",
     "sequelize": "^4.38.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC"
